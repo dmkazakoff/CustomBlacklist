@@ -1,5 +1,6 @@
 auladigital.leya.com
 smart-aula-digital.firebaseio.com
+firebaseio.com
 leyaeducacao.com
 blinklearning.com
 ww.blinklearning.com
