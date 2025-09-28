@@ -1,0 +1,3 @@
+auladigital.leya.com
+smart-aula-digital.firebaseio.com
+leyaeducacao.com
