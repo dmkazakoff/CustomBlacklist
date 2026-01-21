@@ -1,0 +1,57 @@
+# FortiGate Threat Feed - External IP Address List
+# Generated: 2026-01-21 16:08:22 UTC
+# Source: www.worldbank.org and www.adb.org network analysis
+# Purpose: Custom routing table for CDN and Geo-IP services
+# Total Prefixes: 25
+#
+# Format: One IP/CIDR per line
+# Lines starting with # are comments
+#
+# ============================================================================
+#
+
+# Cloudflare (AS13335)
+104.16.0.0/12
+172.64.0.0/13
+
+# Amazon CloudFront (AS16509)
+13.32.0.0/15
+13.35.0.0/16
+52.222.128.0/17
+
+# Amazon AWS EC2 (AS16509, AS14618)
+18.64.0.0/14
+34.192.0.0/10
+52.0.0.0/11
+54.64.0.0/11
+63.32.0.0/14
+
+# Google (AS15169)
+8.47.0.0/16
+64.233.160.0/19
+142.250.0.0/15
+172.253.0.0/16
+173.194.0.0/16
+216.58.192.0/19
+216.239.32.0/19
+
+# Google Cloud (AS15169, AS19527)
+35.240.0.0/13
+
+# Fastly CDN (AS54113)
+151.101.0.0/16
+
+# Meta/Facebook (AS32934)
+157.240.0.0/16
+
+# Microsoft Azure (AS8075)
+20.192.0.0/10
+
+# Akamai CDN (AS16625, AS20940)
+23.0.0.0/12
+150.171.0.0/16
+172.175.0.0/16
+185.5.160.0/22
+
+# ============================================================================
+# End of feed
